@@ -15,14 +15,14 @@ end
 --// Custom Drawing Library
 
 if not Drawing or not Drawing.new or not Drawing.Fonts then
-	loadstring(game.HttpGet(game, "https://pastebin.com/raw/huyiRsK0"))()
+	loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/emrepl22official/We-Hub-New/refs/heads/main/custom_draw.lua"))()
 
 	repeat
 		wait(0)
 	until Drawing and Drawing.new and type(Drawing.new) == "function" and Drawing.Fonts and type(Drawing.Fonts) == "table"
 end
 
-local ConfigLibrary = loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/emrepl22official/Main.lua"))()
+local ConfigLibrary = loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/emrepl22official/We-Hub-New/refs/heads/main/main.lua"))()
 
 local Vector2new, Vector3zero, CFramenew = Vector2.new, Vector3.zero, CFrame.new
 local Drawingnew, DrawingFonts = Drawing.new, Drawing.Fonts
