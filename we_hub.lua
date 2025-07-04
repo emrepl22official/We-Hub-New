@@ -18,11 +18,11 @@ local osdate = os.date
 
 --// Launching
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/We-Hub-New/refs/heads/main/library.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/Roblox-Functions-Library/main/Library.lua"))()
 
-local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/We-Hub-New/refs/heads/main/ui_library.lua"))()
-local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/We-Hub-New/refs/heads/main/esp.lua"))()
-local Aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/We-Hub-New/refs/heads/main/aimbot.lua"))()
+local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/AirHub-V2/main/src/UI%20Library.lua"))()
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/emrepl22official-ESP/main/src/ESP.lua"))()
+local Aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/Aimbot-V3/main/src/Aimbot.lua"))()
 
 --// Variables
 
@@ -927,19 +927,19 @@ ProfilesSection:Button({
 
 InformationSection:Label("Made by emrepl22official")
 
-InformationSection:Button({
+--[=[InformationSection:Button({
 	Name = "Copy GitHub",
 	Callback = function()
 		setclipboard("https://github.com/emrepl22official")
 	end
-})
+})]=]
 
 InformationSection:Label("WeaBilisim © 2023 - "..osdate("%Y"))
 
 InformationSection:Button({
 	Name = "Copy Discord Invite",
 	Callback = function()
-		setclipboard("https://discord.gg/Nc8H3uUZ")
+		setclipboard("https://discord.gg/Ncz3H3quUZ")
 	end
 })
 
