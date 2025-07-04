@@ -52,7 +52,7 @@ end, function(self, Index, Value)
 end
 
 if identifyexecutor() == "Solara" then -- Quads are broken on Solara.
-	local DrawQuad = loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/emrepl22official/Custom-Quad-Render-Object/main/Main.lua"))() -- Custom Quad Drawing Object
+	local DrawQuad = loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/emrepl22official/We-Hub-New/refs/heads/main/custom_render_main.lua"))() -- Custom Quad Drawing Object
 	local _Drawingnew = clonefunction(Drawing.new)
 
 	Drawingnew = function(...)
