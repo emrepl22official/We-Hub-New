@@ -18,11 +18,11 @@ local osdate = os.date
 
 --// Launching
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/Roblox-Functions-Library/main/Library.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/We-Hub-New/refs/heads/main/library.lua"))()
 
-local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/AirHub-V2/main/src/UI%20Library.lua"))()
-local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/emrepl22official-ESP/main/src/ESP.lua"))()
-local Aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/Aimbot-V3/main/src/Aimbot.lua"))()
+local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/We-Hub-New/refs/heads/main/ui_library.lua"))()
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/We-Hub-New/refs/heads/main/esp.lua"))()
+local Aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/emrepl22official/We-Hub-New/refs/heads/main/aimbot.lua"))()
 
 --// Variables
 
