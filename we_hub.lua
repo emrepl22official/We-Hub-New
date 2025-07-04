@@ -927,19 +927,19 @@ ProfilesSection:Button({
 
 InformationSection:Label("Made by emrepl22official")
 
---[=[InformationSection:Button({
+InformationSection:Button({
 	Name = "Copy GitHub",
 	Callback = function()
 		setclipboard("https://github.com/emrepl22official")
 	end
-})]=]
+})
 
 InformationSection:Label("WeaBilisim © 2023 - "..osdate("%Y"))
 
 InformationSection:Button({
 	Name = "Copy Discord Invite",
 	Callback = function()
-		setclipboard("https://discord.gg/Ncz3H3quUZ")
+		setclipboard("https://discord.gg/Nc8H3uUZ")
 	end
 })
 
